@@ -1,4 +1,4 @@
-fetch('http://localhost:4040/master/recap/baz')
+fetch('https://server01-production-56d3.up.railway.app/master/recap/baz')
     .then(res => res.json())
     .then(arr => {
         const arrRev = arr.toReversed()

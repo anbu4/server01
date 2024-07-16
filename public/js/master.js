@@ -3,16 +3,16 @@ const localCatigory = localStorage.getItem('catigory')
 const localGanre = localStorage.getItem('genre')
 const localPage = localStorage.getItem('page')
 if(localCatigory == 'film'){
-    xmlLink = 'http://localhost:4040/master/film/baz';
+    xmlLink = 'https://server01-production-56d3.up.railway.app/master/film/baz';
 }
 if(localCatigory == 'cartoon'){
-    xmlLink = 'http://localhost:4040/master/cartoon/baz';
+    xmlLink = 'https://server01-production-56d3.up.railway.app/master/cartoon/baz';
 }
 if(localCatigory == 'anime' || localCatigory == 'recap'){
-    xmlLink = 'http://localhost:4040/master/anime/baz';
+    xmlLink = 'https://server01-production-56d3.up.railway.app/master/anime/baz';
 }
 if(localCatigory == 'serial'){
-    xmlLink = 'http://localhost:4040/master/serial/baz'
+    xmlLink = 'https://server01-production-56d3.up.railway.app/master/serial/baz'
 }
 
 fetch(xmlLink)
