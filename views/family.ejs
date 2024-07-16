@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="carcas">
+        <div class="container_box">
+            <!-- navbar -->
+            <%- include('component/navbar') -%>
+
+            <!-- family -->
+            <section class="family_section">
+                <div class="loading">
+                    <br><br><br><br><br><br><br>
+                    <img class="wait" src="/Icons/loading.png">
+                    <p>Простите За ожидания</p>
+                    <br><br><br><br><br><br><br>
+                </div>
+            </section>
+
+
+                <!-- footer -->
+                <%- include('component/footer') -%>
+        </div>
+    </div>
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/js/family.js"></script>
+</body>
+</html>

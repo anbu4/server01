@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="carcas">
+        <div class="container_box">
+            <!-- navbar -->
+            <%- include('component/navbar') -%>
+
+            <!-- item_header -->
+            <container class="header">
+                <div class="loading">
+                    <br><br><br>
+                    <img class="wait" src="/Icons/loading-neo.png">
+                    <p>Простите за ожидания</p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </container>
+
+            <!-- video_player -->
+            <div class="video_box">
+                <div class="video">
+                    <div class="language_box">
+                        <h3>Язык:</h3>
+                    </div>
+                    <iframe class="video_iframe" src='' allow='fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media' frameborder='0' scrolling='no' allowfullscreen></iframe>
+                </div>
+                <div class="episode_num-box"></div>
+                <div class="video_box-bg">
+                    <img src="">
+                </div>
+            </div>
+
+            <!-- item_fam -->
+            <section class="item_fam-section">
+                <div class="loading">
+                    <img class="wait" src="/Icons/loading-neo.png">
+                    <p>Простите за ожидания</p>
+                </div>
+            </section>
+            
+            <!-- footer -->
+            <%- include('component/footer') -%>
+
+        </div>
+        
+    </div>
+    
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/js/move.js"></script>
+</body>
+</html>

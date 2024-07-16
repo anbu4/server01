@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="carcas">
+        <div class="container_box">
+            <!-- navbar -->
+            <%- include('component/navbar') -%>
+
+            <!-- slayd_film -->
+            <div class="caption">фильмы</div>
+            <div class="slayd_box">
+                <div class="film_card-slayd">
+                </div>
+            </div>
+
+            <!-- slayd_serial -->
+            <div class="caption">сериалы</div>
+            <div class="slayd_box">
+                <div class="serial_card-slayd">
+                </div>
+            </div>
+
+            <!-- slayd_anime -->
+            <div class="caption">аниме</div>
+            <div class="slayd_box">
+                <div class="anime_card-slayd">
+                </div>
+            </div>
+
+            <!-- slayd_carton -->
+            <div class="caption">мультфильмы</div>
+            <div class="slayd_box">
+                <div class="cartoon_card-slayd">
+                </div>
+            </div>
+
+            <!-- slayd_recap -->
+            <div class="caption">обзор</div>
+            <div class="slayd_box">
+                <div class="recap_card-slayd">
+                </div>
+            </div>
+
+            <!-- footer -->
+            <%- include('component/footer') -%>
+        </div>
+    </div>
+    <script type="module" src="/js/app.js"></script>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
