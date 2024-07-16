@@ -4,7 +4,7 @@ const express = require('express');
 const fs = require('fs')
 
 const app = express()
-const PORT = 4040
+const PORT =process.env.PORT || 4040
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
