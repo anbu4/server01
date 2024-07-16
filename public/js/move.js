@@ -150,6 +150,10 @@ function creatFamBox(arr, title) {
             item.append(episode)
         }
 
+        item.addEventListener('click', function(){
+            localStorage.setItem('episodeNum', '')
+            localStorage.setItem('scrollEp', '')
+        })
 
         itemFamBoxSection.append(item)
     })

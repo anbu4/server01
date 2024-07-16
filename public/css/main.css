@@ -266,7 +266,7 @@ body{
     flex-direction: column;
     background: var(--color-dark);
     transition: all .5s;
-    margin-top: -220px;
+    margin-top: -262px;
     padding: 5px;
     opacity: 0;
     padding-top: 25px;
