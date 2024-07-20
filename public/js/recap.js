@@ -1,6 +1,7 @@
 fetch('https://server01-production-56d3.up.railway.app/master/recap/baz')
     .then(res => res.json())
     .then(arr => {
+        console.log(arr);
         const arrRev = arr.toReversed()
         // DOM
         const recapContainer = document.querySelector('.recap_container');

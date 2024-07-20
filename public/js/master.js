@@ -18,6 +18,7 @@ if(localCatigory == 'serial'){
 fetch(xmlLink)
     .then(res=> res.json())
     .then(arr =>{
+        console.log(arr);
     const arrRev = arr.toReversed()
 // jsx fucntion
 function creatSlaydCard() {
