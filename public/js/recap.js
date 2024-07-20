@@ -1,4 +1,4 @@
-fetch('https://server01-production-56d3.up.railway.app/master/recap/baz')
+fetch('https://server01-production-6b65.up.railway.app/master/recap/baz')
     .then(res => res.json())
     .then(arr => {
         console.log(arr);
